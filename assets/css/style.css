@@ -1,0 +1,51 @@
+.bg {
+    background: #F7F7F7;
+}
+
+.card {
+    width: 540px;
+    min-height: 466px;
+    padding: 24px 21px;
+}
+
+.accordian-header {
+    width: 498px;
+    height: 59px;
+    padding: 17px 11px 18px 19px;
+    border-radius: 5px;
+    border: 1px solid #0000001A;
+    color: #808080;
+    overflow: hidden;
+}
+
+.font2 {
+    max-width: 468px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.mt-20 {
+    margin-top: 20px;
+}
+
+.pt-20 {
+    padding-top: 20px;
+}
+
+.item-show {
+    height: unset;
+}
+.accordian-header.item-show{
+    border: 1px solid  #128DFF !important;
+}
+.accordian-header.item-show div div svg{
+    transform: rotate(180deg);
+}
+.accordian-header.item-show  div .title{
+    color: #000;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
